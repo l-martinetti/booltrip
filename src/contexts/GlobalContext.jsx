@@ -6,12 +6,12 @@ const GlobalContext = createContext();
 const GlobalProvider = ({ children }) => {
 
     const [trip, setTrips] = useState(trips);
-    const [selectedTrip, setSelectedTrip] = useState(null);
+    // const [selectedTrip, setSelectedTrip] = useState(null);
 
     const value = {
-        trip,
-        selectedTrip,
-        setSelectedTrip
+        trip
+        // selectedTrip,
+        // setSelectedTrip
     };
 
     return (
