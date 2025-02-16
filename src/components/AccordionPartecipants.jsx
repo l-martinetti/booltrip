@@ -12,7 +12,6 @@ const AccordionPartecipants = ({ selectedTrip }) => {
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target={`#collapse${index}`}
-                                aria-expanded="false"
                                 aria-controls={`collapse${index}`}
                             >
                                 {partecipant.nome}
