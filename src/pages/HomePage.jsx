@@ -4,6 +4,7 @@ import { useGlobalContext } from '../contexts/GlobalContext'
 const HomePage = () => {
 
     const { trip } = useGlobalContext();
+
     return (
         <div className="container mt-5">
             <ul className="list-group">

@@ -20,7 +20,7 @@ const AccordionPartecipants = ({ selectedTrip }) => {
                         </h2>
 
                         <div
-                            id={`#collapse${index}`}
+                            id={`collapse${index}`}
                             className="accordion-collapse collapse"
                         >
                             <div className="accordion-body">
